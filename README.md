@@ -9,6 +9,14 @@ tools for making zines with inkscape
 - `pip install setuptools`
 - run `pip install .`
 
+# usage
+
+- create a blank template with zinescape
+- edit in inkscape
+- save the pdf (with 300 dpi)
+- compile the booklet pdf with zinescape
+- print and fold
+
 ## `zinescape template`
 
 this command makes a blank zine template for inkscape. options:
@@ -21,10 +29,25 @@ this command makes a blank zine template for inkscape. options:
 ./zinescape.sh template output.pdf n=12
 ```
 
+the first two pages are the front and back cover - then 10 pages of content
+
+![screenshot-template.png](screenshot-template.jpg)
+
 ## `zinescape compile`
 
-this command takes a .pdf file you've saved from inkscape and arranges it into a zine format. also does image compression. autogenerates output filenames.
+this command takes a .pdf file you've saved from inkscape and arranges it into a zine format. also does image compression. autogenerates output filenames (e.g. `final-book.pdf`, `final-book_compressed.pdf`)
+
+```bash
+./zinescape.sh compile final.pdf n=12
+```
+
+## printing
+
+for best results, print using "actual size" or "100%" scaling, double-sided on "short edge" (if you have a duplex printer). then fold in half and staple in the middle.
+
+![screenshot-print.png](screenshot-print.jpg)
 
 # notes
-doesn't support metric (yet?)
-only does single fold flip on long edge
+
+- doesn't support metric (yet?)
+- only does single fold flip on short edge
