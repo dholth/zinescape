@@ -7,7 +7,7 @@ tools for making zines with inkscape
 
 - install python
 - `pip install setuptools`
-- run `setup.py`
+- run `pip install .`
 
 ## `zinescape template`
 
@@ -16,6 +16,10 @@ this command makes a blank zine template for inkscape. options:
 - N=<number of pages,>
 - W=<width of page, inches>
 - H=<height of page, inches>
+
+```bash
+./zinescape.sh template output.pdf n=12
+```
 
 ## `zinescape compile`
 
