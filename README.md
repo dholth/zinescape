@@ -13,7 +13,7 @@ tools for making zines with inkscape
 
 - create a blank template with zinescape
 - edit in inkscape
-- save the pdf (with 300 dpi)
+- save the pdf
 - compile the booklet pdf with zinescape
 - print and fold
 
