@@ -43,11 +43,11 @@ this command takes a .pdf file you've saved from inkscape and arranges it into a
 
 ## printing
 
-for best results, print using "actual size" or "100%" scaling, double-sided on "short edge" (if you have a duplex printer). then fold in half and staple in the middle.
+for best results, print using "actual size" or "100%" scaling, double-sided. Check whether you should do short-edge or long-edge binding (might vary). After printing, fold in half and staple in the middle.
 
 ![screenshot-print.png](screenshot-print.jpg)
 
 # notes
 
 - doesn't support metric (yet?)
-- only does single fold flip on short edge
+- only does single fold flip
